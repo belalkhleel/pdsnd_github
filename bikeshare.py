@@ -49,7 +49,7 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     try:
-        while 1==1:
+        while True:
             city=input("Would you like to see data for Chicago, New York, or Washington?").lower()
             if city in (CITY_DATA):
                 while 1==1:
@@ -219,7 +219,7 @@ def show_data(df):
         print("{")
         print(df.iloc[index])
         print("}")
-    while 1==1:
+    while True:
         q_to_continue=input("Would you like to view individual data? type 'yes' or 'no'")
         if q_to_continue=="yes":
             index=index+1
