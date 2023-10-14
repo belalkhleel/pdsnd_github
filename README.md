@@ -18,4 +18,4 @@ chicago.csv , new_york_city.csv , washington.csv
 
 ### Credits
 
-Udacity course and resources were sufficient for the completion of the project
+Udacity
