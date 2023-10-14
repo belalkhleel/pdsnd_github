@@ -9,6 +9,12 @@ day_dic={'m':'monday', 'tu':'tuesday', 'w':'wednsday', 'th':'thursday', 'f':'fri
 
 monthes =['january', 'february', 'march', 'april', 'may', 'june']
 def get_day():
+    """
+    Ask user to specify the day in weakday
+
+    Returns 
+    (str) day
+    """
     day=" "
     try:    
         while day not in day_dic:
@@ -20,6 +26,12 @@ def get_day():
         print ("no value")
 
 def get_month():
+    """
+    Ask user to specify the month in year
+
+    Returns 
+    (str) month
+    """
     month = " "
     try:    
         while month not in monthes:
